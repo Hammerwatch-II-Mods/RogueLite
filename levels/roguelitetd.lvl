@@ -1,0 +1,128 @@
+<dict>
+	<dict name="game-mode">
+		<string name="Class">RogueLiteGameMode</string>
+	</dict>
+	<int name="version">1</int>
+	<dict name="lighting">
+		<string name="environment">effects/env/_day.env</string>
+	</dict>
+	<array name="tiles">
+		<dict>
+			<vec2 name="pos">-512 -512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">b101f202f707fd0dfe0efe0eff0fff0fff0fff0fff1f</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">0 -512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">c008fd7e37</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 -512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">b004f406f608f80bfb0cfc0dfd0efe0efe0efe0efe0efe</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-1024 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">d101f101f101f101f10182ee</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-512 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">7e62ff0fff0f</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">0 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">7e7e04</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">0efe0efe0fff0fff7e41ff</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-1024 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">d101f10182be</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-512 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">60ff0ffe0efc0cfa0af606f303f101d0</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">0 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">7e4cfd03d0</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/grass_1_default.tileset</string>
+					<bytes name="data-rle">0fff0efe0fff0fff0fff0fff0efe0efe0dfd0cfc0bfb09f906c6</bytes>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<dict name="units">
+		<array name="actors/beasts/wolves/wolf_black.unit">
+			<vec2>8.6418 -63.274</vec2>
+			<int>1</int>
+			<vec2>72.8023 -239.19</vec2>
+			<int>2</int>
+			<vec2>40.7773 -239.196</vec2>
+			<int>3</int>
+			<vec2>48.8557 -279.171</vec2>
+			<int>4</int>
+			<vec2>8.83061 -239.258</vec2>
+			<int>5</int>
+		</array>
+		<array name="temp/adam/NPCs/bartender.unit"><vec2>-56 -104</vec2><int>6</int></array>
+	</dict>
+	<array name="scripts">
+		<array><string>LevelStart</string><int>7</int><vec3>0 0 0</vec3><bool>t</bool><int>-1</int><bool>f</bool></array>
+	</array>
+</dict>

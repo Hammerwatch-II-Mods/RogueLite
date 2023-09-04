@@ -1,0 +1,42 @@
+<gui>
+	%include "gui/icons.inc"
+	%include "gui/scalablebutton_sprites.inc"
+	<doc>
+		<group>
+			<panel width="168" height="224" anchor="0 1" offset="10 -10" padding="4 4" style="clay" sub-style="blank" > 
+				<group flow="hboxwrapped">
+					
+					<text id="title" text="Damage Upgrades" font="gui/fonts/arial11_bold.fnt" anchor="0 0" offset="1 0" color="#ffc000" />
+
+					<!-- Attack Upgrades -->
+					<scalebutton spriteset="scalebutton-regular" width="75" func="damage" offset="0 0" font="gui/fonts/arial11.fnt" text="Damage: " />
+					<scalebutton spriteset="scalebutton-regular" width="75" func="range" offset="5 0" font="gui/fonts/arial11.fnt" text="Range:" />
+					<scalebutton spriteset="scalebutton-regular" width="75" func="critchance" offset="0 0" font="gui/fonts/arial11.fnt" text="Crit%: " />
+					<scalebutton spriteset="scalebutton-regular" width="75" func="attackspeed" offset="5 0" font="gui/fonts/arial11.fnt" text="AtkSpd: " />
+					<scalebutton spriteset="scalebutton-regular" width="75" func="multishot" offset="0 0" font="gui/fonts/arial11.fnt" text="Multi Shot%: " />
+					<scalebutton spriteset="scalebutton-regular" width="75" func="critmultiplier" offset="5 0" font="gui/fonts/arial11.fnt" text="Crit*: " />
+
+					<text id="title" text="Defensive Upgrades" font="gui/fonts/arial11_bold.fnt" anchor="0 0" offset="1 0" color="#ffc000" />
+
+					<!-- Defensive Upgrades -->
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="0 0" func="build armor" font="gui/fonts/arial11.fnt" text="Max HP: 25" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="5 0" func="build crypt" font="gui/fonts/arial11.fnt" text="Defense: 0" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="0 0" func="build fire" font="gui/fonts/arial11.fnt" text="Lifesteal%: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="5 0" func="build ice" font="gui/fonts/arial11.fnt" text="HP Regen: 0.1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="0 0" func="build ice" font="gui/fonts/arial11.fnt" text="Knockback: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="5 0" func="build ice" font="gui/fonts/arial11.fnt" text="Lifesteal HP: 1" />
+
+					<text id="title" text="Utility Upgrades" font="gui/fonts/arial11_bold.fnt" anchor="0 0" offset="1 0" color="#ffc000" />
+
+					<!-- Utility Upgrades -->
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="0 0" func="build ice" font="gui/fonts/arial11.fnt" tooltip-enabled="true" tooltip="Gold each wave"  text="Gold EW: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="5 0" func="build ice" font="gui/fonts/arial11.fnt" tooltip-enabled="true" tooltip="Gems each wave" text="Gems EW: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="0 0" func="build ice" font="gui/fonts/arial11.fnt" text="Supply drop: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="5 0" func="build ice" font="gui/fonts/arial11.fnt" text="Kill gold: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="0 0" func="build ice" font="gui/fonts/arial11.fnt" tooltip-enabled="true" tooltip="Free upgrade chance" text="Free upg%: 1" />
+					<scalebutton spriteset="scalebutton-regular" width="75" offset="5 0" func="build ice" font="gui/fonts/arial11.fnt" text="Gamespeed: 1" />
+				</group>
+			</panel>
+		</group>
+	</doc>
+</gui>

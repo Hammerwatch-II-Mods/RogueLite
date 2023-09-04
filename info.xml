@@ -1,0 +1,21 @@
+<dict>
+  <string name="name">Rogue Lite TD</string>
+  <string name="author">Thyraxx.void</string>
+  <string name="description">A simple rogue lite tower defense game, buy permanent upgrades to get stronger after dying.</string>
+</dict>
+
+
+<info>
+  <name>Rogue Lite TD</name>
+  <tag>HW2</tag>
+  <description>A simple rogue lite tower defense game, buy permanent upgrades to get stronger after dying.</description>
+  
+  <players min="1" max="1" />
+  <multiplayer>false</multiplayer>
+  <saving>true</saving>
+  <!-- Uncomment this to enable start levels -->
+  
+  <start>
+    <level name="Rogue Lite TD" lvl="levels/roguelitetd.lvl" />
+  </start>
+</info>

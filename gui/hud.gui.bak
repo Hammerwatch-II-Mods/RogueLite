@@ -1,0 +1,98 @@
+<gui>
+	<sprites>
+		<sprite name="waypoint-player-icon" texture="gui/icons.png"><frame>139 242 14 14</frame></sprite>
+		<sprite name="waypoint-player-dead" texture="gui/icons.png"><frame>222 242 14 14</frame></sprite>
+		<sprite name="waypoint-player-circle" texture="gui/icons.png"><frame>236 236 20 20</frame></sprite>
+		<sprite name="waypoint-player-ping" texture="gui/icons.png">
+			<frame time="100">83 242 14 14</frame>
+			<frame time="100">97 242 14 14</frame>
+			<frame time="100">111 242 14 14</frame>
+			<frame time="100">125 242 14 14</frame>
+		</sprite>
+
+		<sprite name="use-icon" texture="gui/icons.png">
+			<frame time="2000">230 0 13 13</frame>
+			<frame time="250">230 13 13 13</frame>
+			<frame time="500">230 26 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-cross" texture="gui/icons.png"><frame>0 76 7 7</frame></sprite>
+
+		<sprite name="use-icon-key" texture="gui/icons.png">
+			<frame time="2000">243 0 13 13</frame>
+			<frame time="100">243 13 13 13</frame>
+			<frame time="100">243 26 13 13</frame>
+			<frame time="100">243 39 13 13</frame>
+			<frame time="100">243 52 13 13</frame>
+			<frame time="100">243 39 13 13</frame>
+			<frame time="100">243 26 13 13</frame>
+			<frame time="100">243 13 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-lockpick" texture="gui/icons.png">
+			<frame time="2000">191 0 13 13</frame>
+			<frame time="100">191 13 13 13</frame>
+			<frame time="100">191 26 13 13</frame>
+			<frame time="100">191 39 13 13</frame>
+			<frame time="100">191 52 13 13</frame>
+			<frame time="100">191 39 13 13</frame>
+			<frame time="100">191 26 13 13</frame>
+			<frame time="100">191 13 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-shop" texture="gui/icons.png">
+			<frame time="250">144 144 14 14</frame>
+		</sprite>
+
+		<sprite name="use-icon-speech" texture="gui/icons.png">
+			<frame time="250">247 0 9 10</frame>
+		</sprite>
+
+		<sprite name="use-icon-exit" texture="gui/icons.png">
+			<frame>243 91 13 13</frame>
+			<frame>243 104 13 13</frame>
+			<frame time="1000">243 117 13 13</frame>
+			<frame>243 104 13 13</frame>
+			<frame time="1000">243 91 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-question" texture="gui/icons.png">
+			<frame time="2000">217 0 13 13</frame>
+			<frame time="100">217 13 13 13</frame>
+			<frame time="100">217 26 13 13</frame>
+			<frame time="100">217 39 13 13</frame>
+			<frame time="100">217 52 13 13</frame>
+			<frame time="100">217 39 13 13</frame>
+			<frame time="100">217 26 13 13</frame>
+			<frame time="100">217 13 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-light" texture="gui/icons.png">
+			<frame time="150">204 0 13 13</frame>
+			<frame time="150">204 13 13 13</frame>
+			<frame time="150">204 26 13 13</frame>
+			<frame time="150">204 39 13 13</frame>
+			<frame time="150">204 52 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-revive" texture="gui/icons.png">
+		<frame time="495">243 65 13 13</frame>
+		<frame time="495">243 78 13 13</frame>
+		</sprite>
+
+		<sprite name="use-icon-button" texture="gui/icons.png">
+			<frame time="2000">230 0 13 13</frame>
+			<frame time="250">230 13 13 13</frame>
+			<frame time="500">230 26 13 13</frame>
+		</sprite>
+
+	</sprites>
+
+	<doc>
+		<group>
+			<!-- Waypoint markers -->
+			<waypoints id="waypoints" />
+
+		</group>
+	</doc>
+</gui>
